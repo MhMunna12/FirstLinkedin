@@ -1,0 +1,76 @@
+.linkedin-service {
+    background-color: #eee;
+    padding:0;
+    margin:0;
+    
+    overflow-x: hidden
+}
+
+.cardses {
+    border: none;
+    border-radius: 10px
+}
+.cardses:hover{
+    background-color:rgb(36, 59, 136);
+    color: white
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(22, 73, 121);
+    color: rgb(241, 239, 239);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.text2 {
+    color: #a5aec0
+}
+
+
+.linkedin-description {
+    background-color: #eee;
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+    margin-top: 50px!important;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(22, 73, 121);
+    color: rgb(241, 239, 239);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px;
+    position: absolute;
+    top: -25px;
+  
+
+}
+
+.cards {
+    border: none;
+    border-radius: 10px
+}
+.cards:hover{
+    background-color:rgb(36, 59, 136);
+    color: white
+}
