@@ -85,8 +85,12 @@
 
 }
 
-.cards {
+.cards-main {
     border: none;
+    border-radius: 10px
+}
+.cards {
+    border:1px solid lightgrey;
     border-radius: 10px
 }
 .cards:hover{

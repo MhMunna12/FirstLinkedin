@@ -104,10 +104,10 @@ const Service = () => {
                    
                     <div className="row">
                         <div className="col-md-4">
-                            <div className="card cards p-3 mb-2">
+                            <div className="card cards-main p-3 mb-2">
                                 <div className="d-flex justify-content-between">
                                     <div className="d-flex flex-row align-items-center">
-                                        <div className="icons"><i className="fab fa-linkedin"></i> </div>
+                                        <div className="icons bg-primary shadow"><i className="fab fa-linkedin"></i> </div>
                                     </div>
                                 </div>
                                 <div className="mt-3">
@@ -122,7 +122,7 @@ const Service = () => {
                             <div className="card cards p-3 mb-2">
                                 <div className="d-flex justify-content-between">
                                     <div className="d-flex flex-row align-items-center">
-                                        <div className="icons"> <i className="bx bxl-dribbble"></i> </div>
+                                        <div className="icons "> <i className="bx bxl-dribbble"></i> </div>
                                     </div>
                                 </div>
                                 <div className="mt-3">
