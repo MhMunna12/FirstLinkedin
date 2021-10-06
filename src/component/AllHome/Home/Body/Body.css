@@ -1,0 +1,22 @@
+.intro-btn{
+    background-color: rgb(32,95,192);
+    
+    border: 1px solid tomato;
+    border-radius: 5px;
+    padding: 10px 35px;
+    color: white;
+}
+.intro-btn:hover{
+    background-color: orange;
+    color: white;
+    transition: background-color 1s;
+}
+.body-desc{
+    margin-top:60px;
+    margin-bottom:65px;
+}
+.body-pic img{
+    height:505px;  
+    width: 714px;
+    
+}

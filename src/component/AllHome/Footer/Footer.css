@@ -1,0 +1,47 @@
+.footer-main{
+    background-color: #1362C1;
+    /* height:500px; */
+}
+.about-us h3{
+    color: white;
+}
+.about-us p{
+   color: lightgray; 
+}
+.about-us img{
+    height:130px;
+    width:260px;
+}
+.support h3{
+    color: white;
+}
+.support h6{
+    color: lightgray; 
+    margin-bottom: 30px;
+}
+.important h3{
+    color: white;
+}
+.important h6{
+    color: lightgray; 
+    margin-bottom: 30px;
+}
+.contact h3{
+    color: white;
+}
+.contact h6{
+    color: lightgray; 
+    margin-bottom: 30px;
+}
+.button{
+    border: none;
+    border-radius:10px;
+    background-color: skyblue;
+    padding:12px 30px;
+    color: white;
+    margin-top: 15px;
+}
+.footer-desc p{
+    margin: 0 auto;
+    color: lightgray;
+}
