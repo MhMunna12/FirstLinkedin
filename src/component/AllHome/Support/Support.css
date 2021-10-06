@@ -1,0 +1,27 @@
+.email-icon{
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+.phone-icon{
+    border-radius: 30px;
+    /* background-color: white; */
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 50px;
+}
+.what-icon{
+    border-radius: 30px;
+    /* background-color: white; */
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 50px;
+}
+.video-icon{
+    border-radius: 30px;
+    /* background-color: white; */
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 50px;
+}

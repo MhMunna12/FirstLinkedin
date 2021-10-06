@@ -1,0 +1,22 @@
+.home{
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius:10px;
+    color:white;
+}
+.home:hover{
+    color: white;
+}
+.bag{
+    /* border: 1px solid orange; */
+    border-radius:10px;
+    color:'#3357BD';
+    background-color: white;
+}
+.hr-dotted{
+    border:  2px dotted white;
+    border-bottom: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 98%;
+}

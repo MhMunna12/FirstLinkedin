@@ -1,0 +1,47 @@
+h1{
+    font-weight: bold;
+}
+
+.buy-flowers{
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 70px;
+    padding:20px;
+    color: rgb(56, 71, 99);
+    margin-right: 29px;
+}
+.buy-flowers button{
+    background-color:orange;
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    color: white;
+    margin-bottom: 15px;
+}
+.buy-flower{
+    /* background-color: rgb(238, 238, 238); */
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    margin-bottom: 70px;
+    padding:20px;
+    color: rgb(56, 71, 99);
+    margin-right: 29px;
+}
+.buy-flower button{
+    background-color:rgb(34, 45, 65);
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    color: white;
+    margin-bottom: 15px;
+}
+.why-us{
+    margin-bottom: 150px;
+    border-right: 1px solid lightgrey;
+}
+.why-us p{
+    color: rgb(56, 71, 99);
+}
+.why-us-content{
+    color: rgb(56, 71, 99);
+}

@@ -1,0 +1,59 @@
+.blog-body{
+    background-color: white;
+    border-radius: 20px;
+    padding:10px;
+    margin-bottom:120px;
+    width:22rem;
+}
+.background{
+    background-image: url(../../../images/instagram.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 180px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.background h3{
+    color:white;
+    padding-top: 125px;
+    padding-left: 10px;
+    /* position: absolute;
+    margin-bottom: 40px; */
+}
+
+/*snap*/
+.background-snap{
+    background-image: url(../../../images/sanpchat.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 180px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.background-snap h3{
+    color:white;
+    padding-top: 125px;
+    padding-left: 10px;
+    /* position: absolute;
+    margin-bottom: 40px; */
+}
+
+/*fb*/
+.background-fb{
+    background-image: url(../../../images/messenger.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 180px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.background-fb h3{
+    color:white;
+    padding-top: 125px;
+    padding-left: 10px;
+    /* position: absolute;
+    margin-bottom: 40px; */
+}

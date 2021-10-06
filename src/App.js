@@ -5,8 +5,7 @@ import AllHome from './component/AllHome/AllHome';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Munna</h1>
+    <div>
       <AllHome/>
     </div>
   );

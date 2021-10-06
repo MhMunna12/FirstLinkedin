@@ -1,0 +1,40 @@
+/* .im-flowers{
+    background-color: #F9F9FE;
+}
+.im-flowers-main{
+    margin-top: 50px;
+} */
+
+.linkedin-bg img{
+    height: 350px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+.linkedin-content{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.btn{
+    padding: 12px;
+    border-radius: 25px;
+    width: 120px;
+    background-color: rgb(245, 137, 118);
+    border:none;
+}
+.btn:hover{
+    background-color: rgb(245, 137, 118);
+}
+.btn-cycle{
+    padding: 12px;
+    border-radius: 25px;
+    width: 120px;
+    background-color: orange;
+    border:none;
+}
+.btn-cycle:hover{
+    background-color: orange;
+}
+.linkedin-content p{
+    color: rgb(204, 195, 195);
+}

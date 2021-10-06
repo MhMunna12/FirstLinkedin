@@ -1,0 +1,10 @@
+.comment-main p{
+    color: lightgrey;
+}
+.comment-br{
+    width: 50px;
+    border: 4px solid lightgrey;
+}
+.sec-right{
+    text-align: center;
+}
