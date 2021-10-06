@@ -2,9 +2,27 @@
     color: lightgrey;
 }
 .comment-br{
-    width: 50px;
+    width: 60px;
     border: 4px solid lightgrey;
 }
 .sec-right{
     text-align: center;
+}
+.input{
+    
+    border:2px solid skyblue;
+    border-radius:20px ;
+    padding: 10px;
+}
+
+.text-area{
+    border:2px solid skyblue;
+    border-radius:20px ;
+}
+.sec-right button {
+    border: none;
+    border-radius:10px;
+    padding: 10px 60px;
+    color: white;
+    background-color:rgb(68, 68, 214);
 }

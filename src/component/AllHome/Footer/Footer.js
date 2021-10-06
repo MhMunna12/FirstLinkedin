@@ -55,15 +55,11 @@ const Footer = () => {
         </div>
         <hr style={{color:'white'}} />
         <div>
-          <div  className='d-flex footer-desc'>
+          <div  className='d-flex footer-desc mb-5'>
             <p>&copy; Copyright instafollowers 2021. All Right Received</p>
             <p>Support | Privacy | Terms and Conditions</p>
           </div>
-            {/* <div className='justify-content-center'>
-                <div>
-
-                </div>
-            </div> */}
+            
         </div>
       </div>
     </div>

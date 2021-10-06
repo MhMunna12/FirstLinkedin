@@ -6,12 +6,18 @@ import Comment from '../Comment/Comment';
 import Blog from '../Blog/Blog';
 import Support from '../Support/Support';
 import Footer from '../Footer/Footer';
+import Service from '../Service/Service';
+import Video from '../Video/Video';
+import Newsletter from '../Newsletter/Newsletter';
 
 const LinkedIn_F = () => {
     return (
         <div className='im-flowers '>
+            <Service/>
             <ImportantFlowers/>
             <BuyFlowers/>
+            <Video/>
+            <Newsletter/>
             <Comment/>
             <Blog/>
             <Support/>

@@ -2,11 +2,6 @@ import React from "react";
 import "./CommentDetail.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faClock,
-  faEnvelope,
-  faPhone,
-  faPlayCircle,
-  faShoppingBag,
   faStar,
 } from "@fortawesome/free-solid-svg-icons";
 const CommentDetail = (props) => {
@@ -15,7 +10,7 @@ const CommentDetail = (props) => {
   return (
     <div className="container">
       <div className="comment-sec">
-        <div className="d-flex">
+      <div className="d-flex">
           <div className='image'>
             <img src={img} alt="" />
           </div>
@@ -23,11 +18,10 @@ const CommentDetail = (props) => {
             <h4>{name}</h4>
             <p className='content-p'>{desc} <br /> <span className="span">Read more</span> </p>
             <h6 className='rating'><FontAwesomeIcon  icon={faStar}  /> <FontAwesomeIcon  icon={faStar}  /> <FontAwesomeIcon  icon={faStar}  /> <FontAwesomeIcon  icon={faStar}  /> <FontAwesomeIcon  icon={faStar}  />  <span style={{color:'skyblue', marginLeft:'13px'}}>5.0</span></h6>
-            <hr />
+            <hr  />
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
