@@ -4,7 +4,8 @@ import Bg_Home from "../../../../images/bg.png";
 const Body = () => {
   return (
     <div className="container">
-      <div className="row mt-5 mb-5">
+    <hr className="hr-dotted" />
+      <div className="row mt-5">
         <div className="col-md-5">
           <h1 style={{ color: "white" }}>
             Buy <span style={{ color: "tomato" }}>Linkedin</span> Company <br />{" "}

@@ -15,14 +15,14 @@
     margin-top: 70px;
     margin-bottom: 60px;
 }
-.btn{
+.btn-more{
     padding: 12px;
     border-radius: 25px;
     width: 120px;
     background-color: rgb(245, 137, 118);
     border:none;
 }
-.btn:hover{
+.btn-more:hover{
     background-color: rgb(245, 137, 118);
 }
 .btn-cycle{

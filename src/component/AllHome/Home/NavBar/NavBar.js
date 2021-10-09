@@ -19,8 +19,9 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const NavBar = () => {
   return (
-    <div className="container">
-      <Navbar expand="lg">
+    <div className='navar-head'>
+      <div className="container">
+      <Navbar  expand="lg">
             <Nav
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: "100px" }}
@@ -57,7 +58,7 @@ const NavBar = () => {
               />
             </Form>
       </Navbar>
-      <Navbar expand="lg" className="p-2">
+      <Navbar expand="lg" className="p-3">
           <h4 style={{color:'white'}}>FirstLinkedin</h4>
             <Nav
               className="me-auto my-2 my-lg-0"
@@ -84,7 +85,8 @@ const NavBar = () => {
               <FontAwesomeIcon icon={faShoppingBag} />
             </Nav.Link>
       </Navbar>
-      <hr className="hr-dotted" />
+      
+    </div>
     </div>
   );
 };

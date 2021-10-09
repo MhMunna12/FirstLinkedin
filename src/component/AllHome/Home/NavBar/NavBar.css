@@ -4,6 +4,9 @@
     border-radius:10px;
     color:white;
 }
+.navar-head{
+    background-color: #1362C1;
+}
 .home:hover{
     color: white;
 }

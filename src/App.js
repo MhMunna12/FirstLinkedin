@@ -1,12 +1,35 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import AllHome from './component/AllHome/AllHome';
+import Contact_us from './component/Contact_us/Contact_us';
+import Login from './component/Login/Login';
 
 function App() {
   return (
     <div>
-      <AllHome/>
+      <Router>
+        <Switch>
+          <Route exact path = '/'>
+            <AllHome/>
+          </Route>
+          <Route  path = '/home'>
+            <AllHome/>
+          </Route>
+          <Route path = '/contact'>
+            <Contact_us/>
+          </Route>
+          <Route path = '/login'>
+            <Login/>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

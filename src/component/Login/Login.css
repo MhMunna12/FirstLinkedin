@@ -1,0 +1,37 @@
+.login-color{
+    background-color: #F9F9FE;
+}
+
+.login-main{
+    margin-top:100px;
+}
+.login-main p{
+    font-size:35px;
+}
+.login-text{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid skyblue;
+}
+.login-btn{
+    color:white;
+    padding: 10px;
+    border-radius: 25px;
+}
+.google{
+    border-radius: 10px;
+    background-color: #F9F9FE;
+    border: 2px solid skyblue;
+}
+.facebook{
+    border-radius: 10px;
+    background-color: #F9F9FE;
+    border: 2px solid skyblue;
+}
+
+.login-image img{
+    width:600px;
+    height: 300px;
+    padding: 10px;
+}
