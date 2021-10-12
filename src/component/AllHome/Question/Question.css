@@ -1,7 +1,8 @@
-/* .accordion-button::after{
+.accordion-button::after{
     content:"\002B";
     font-weight:bold;
     float:right;
+    border-radius:20px !important;
     margin-left:auto !important;
     width: 25px;
     height: 25px;
@@ -13,7 +14,11 @@
     justify-content: center;
     background-image: none !important;
   }
-
+.accordion-item{
+  border-radius:20px !important;
+  border: none;
+  background-color: none;
+}
   
 .h2{
     text-align: center;
@@ -28,4 +33,4 @@
   .accordion-button:not(.collapsed){
     background-color: rgb(0 0 0 / 13%) !important;
     color: black !important;
-  } */
+  }

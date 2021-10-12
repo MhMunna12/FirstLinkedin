@@ -1,0 +1,133 @@
+.pricing-main {
+  background-color: #f9f9fe;
+}
+.list-main {
+  border: 1px solid red;
+}
+.price-main {
+  border: 1px solid blue;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+}
+.price-card{
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 10px;
+    border-radius:15px;
+}
+.price-card small {
+    color: grey;
+}
+.btn-off{
+    background-color: rgb(214, 214, 243);
+    border-radius: 20px;
+    color: blue;
+}
+.btn-offs{
+    background-color: rgb(247, 214, 219);
+    border-radius: 20px;
+    color: rgb(240, 108, 130);
+}
+.price-cards{
+
+} 
+
+
+
+.price span {
+  font-size: 20px;
+  color: rgb(25, 15, 85);
+  font-weight: bold;
+}
+.price del {
+  color: grey;
+}
+.a-price {
+  /* text-align: center; */
+  padding: 22px;
+  border-radius: 10px;
+  background-color: blue;
+  border: 1px solid lightgrey;
+  color: white;
+}
+.d-price {
+  text-align: center;
+}
+.btn-discount {
+  border: 1px solid rgb(160, 158, 158);
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  margin-right: 10px;
+}
+.btn-select {
+  border: 1px solid rgb(160, 158, 158);
+  border-radius: 20px;
+  padding: 10px;
+  color: blue;
+  background-color: white;
+}
+.delivery {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+  color: blue;
+  background-color: rgb(241, 241, 241);
+}
+.cart-btn {
+  background-color: rgb(245, 217, 222);
+  padding: 10px;
+  color: blue;
+}
+.buy-btn {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+}
+.ratting {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+
+  background-color: rgb(241, 241, 241);
+}
+
+/* .abe{
+    border: 1px solid lightgrey;
+} */
+.pricing-photo {
+    border: 1px solid lightgrey;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .pricing {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+  
+    background-color: rgb(241, 241, 241);
+  }
+  .price {
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 50px;
+  }
+  .btn-primaryr{
+      border-radius: 20px;
+      padding:8px 30px;
+  }
+  .btn-primar{
+    border-radius: 20px;
+    padding:8px 30px;
+    background: lightgray;
+    color: gray;
+    border: none;
+}
+.btn-primar:hover{
+    background: lightgray;
+    color: gray;
+}

@@ -10,6 +10,8 @@ import {
 import AllHome from './component/AllHome/AllHome';
 import Contact_us from './component/Contact_us/Contact_us';
 import Login from './component/Login/Login';
+import Register from './component/Register/Register';
+import Pricing from './component/Pricing/Pricing';
 
 function App() {
   return (
@@ -27,6 +29,12 @@ function App() {
           </Route>
           <Route path = '/login'>
             <Login/>
+          </Route>
+          <Route path = '/register'>
+            <Register/>
+          </Route>
+          <Route path = '/price'>
+            <Pricing/>
           </Route>
         </Switch>
       </Router>

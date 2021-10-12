@@ -8,6 +8,7 @@ import Support from '../Support/Support';
 import Footer from '../Footer/Footer';
 import Service from '../Service/Service';
 import Video from '../Video/Video';
+import Question from '../Question/Question';
 import Newsletter from '../Newsletter/Newsletter';
 
 const LinkedIn_F = () => {
@@ -17,6 +18,7 @@ const LinkedIn_F = () => {
             <ImportantFlowers/>
             <BuyFlowers/>
             <Video/>
+            <Question/>
             <Newsletter/>
             <Comment/>
             <Blog/>
