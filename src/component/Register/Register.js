@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Register.css";
 import Button from "@restart/ui/esm/Button";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import Footer from "../AllHome/Footer/Footer";
 // import { getAuth, signInWithPopup, FacebookAuthProvider } from "firebase/auth";
 import {
@@ -18,6 +18,7 @@ import initializeAuthentication from "./firebase.init";
 
 initializeAuthentication();
 const Register = () => {
+  const history = useHistory();
   const [register, setRegister] = useState({});
   const [error, setError] = useState(false);
   const handleChange = (e) => {
@@ -38,7 +39,10 @@ const Register = () => {
         body: JSON.stringify(register),
       })
         .then((res) => res.json())
-        .then((data) => console.log(data))
+        .then((data) => {
+          history.push("/login");
+          console.log(data);
+        })
         .catch((err) => console.log(err));
     } else {
       setError(true);

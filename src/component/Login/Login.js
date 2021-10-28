@@ -4,6 +4,7 @@ import { Link, useHistory } from "react-router-dom";
 import GoogleLogin from "react-google-login";
 import axios from "axios";
 import FacebookLogin from "react-facebook-login";
+import Toastify from "toastify-js";
 import "./Login.css";
 import signin from "../../images/signIn.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -28,10 +29,23 @@ const Login = () => {
       },
       body: JSON.stringify(user),
     })
-      .then((res) => console.log(res))
+      .then((res) => res.json())
       .then((data) => {
-        setUser(data);
-        // history.push("/home");
+        if (data.error) {
+          Toastify({
+            text: data.error,
+            backgroundColor: "red",
+            duration: 3000,
+          }).showToast();
+        } else {
+          setUser(data);
+          Toastify({
+            text: data.message,
+            backgroundColor: "green",
+            duration: 4000,
+          }).showToast();
+          history.push("/home");
+        }
       })
       .catch((err) => console.error(err));
   };
